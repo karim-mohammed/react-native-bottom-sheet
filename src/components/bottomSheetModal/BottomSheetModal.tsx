@@ -8,7 +8,7 @@ import React, {
   useState,
 } from 'react';
 import { Portal, usePortal } from '@gorhom/portal';
-import { nanoid } from 'nanoid/non-secure';
+import { nanoid } from 'nanoid';
 import BottomSheet from '../bottomSheet';
 import { useBottomSheetModalInternal } from '../../hooks';
 import { print } from '../../utilities';
